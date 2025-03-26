@@ -11,22 +11,9 @@ a:hover   {
     text-decoration: underline;
 }
 
-.header {
-    margin: 0px;
+header {
     padding: 0px;
-    border: 0px;
-    background-color: black;
-    
-}
-
-.main   {
-    margin: 0px;
-    background-color: purple;
-}
-
-.footer {
-    margin: 0px;
-
+    border: 1px solid black;    
 }
 
 .cabeceraPrincipal  {
@@ -68,9 +55,48 @@ a:hover   {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-inline: 20px;
-    color: white;
 }
 
 .menuPrincipal a {
+    color: white;
+}
+
+main   {
+    margin: 0% 10% 0% 10%;
+}
+
+.contenidoPrincipal {
+    float: left;
+    width: 65%;
+}
+
+.entradaContenido   {
+    padding-right: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+.barraLateral   {
+    float: right;
+    width: 35%;
+}
+
+.entradaLateral {
+    padding-left: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+footer {
+    clear: both;
+    background-color: green;
+    padding: 8px 10% 8px 10%;
+}
+
+.piePrincipal   {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
     color: white;
 }

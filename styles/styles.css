@@ -70,10 +70,33 @@ main   {
     width: 65%;
 }
 
-.entradaContenido   {
+section.entradaContenido   {
     padding-right: 20px;
     color: black;
     border: 1px solid black;
+}
+
+.tituloContenido    {
+    font-family: Arial;
+    font-size: 22px;
+    color:red;
+}
+
+.subtituloContenido {
+    font-family: Arial;
+    color:black;
+    font-style: italic;
+}
+
+.imagenContenido    {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textoContenido {
+    font-family: Arial;
+    text-align: justify;
 }
 
 .barraLateral   {
@@ -81,7 +104,7 @@ main   {
     width: 35%;
 }
 
-.entradaLateral {
+section.entradaLateral {
     padding-left: 20px;
     color: black;
     border: 1px solid black;

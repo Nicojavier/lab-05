@@ -1,6 +1,6 @@
 body   {
     margin: 0px;
-    background-color: #4010bb;
+    background-color: #947cd3;
 }
 
 a   {
@@ -13,13 +13,12 @@ a:hover   {
 
 header {
     padding: 0px;
-    border: 1px solid black;    
 }
 
 .cabeceraPrincipal  {
-    border: black solid 1px;
     padding: 40px 10% 40px 10%;
     align-content: center;
+    background-color: #4010bb;
 }
 
 .tituloPrincipal h1 {
@@ -45,7 +44,7 @@ header {
     border: black solid 1px;
     align-content: center;
     text-align: center;
-
+    background-color: #000000;
 }
 
 .menuPrincipal ul li {
@@ -63,6 +62,7 @@ header {
 
 main   {
     margin: 0% 10% 0% 10%;
+    background-color: #;
 }
 
 .contenidoPrincipal {
@@ -73,13 +73,12 @@ main   {
 section.entradaContenido   {
     padding-right: 20px;
     color: black;
-    border: 1px solid black;
 }
 
 .tituloContenido    {
     font-family: Arial;
     font-size: 22px;
-    color:red;
+    color:black;
 }
 
 .subtituloContenido {
@@ -88,7 +87,13 @@ section.entradaContenido   {
     font-style: italic;
 }
 
-.imagenContenido    {
+.subtituloContenido a{
+    color:black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.imagenContenido  img  {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -107,12 +112,13 @@ section.entradaContenido   {
 section.entradaLateral {
     padding-left: 20px;
     color: black;
-    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 footer {
     clear: both;
-    background-color: green;
+    background-color: #000000;
     padding: 8px 10% 8px 10%;
 }
 
